@@ -24,7 +24,7 @@ for i in range(10 ** 5):
     w += adjustments
 
 
-two_nums = list(map(int, input('Введите два числа для использования оператора XOR:').split()))
+two_nums = list(map(int, input('Введите два числа для использования оператора XOR: ').split()))
 
 input_layer = [two_nums]
 result = sigmoid(numpy.dot(input_layer, w))
